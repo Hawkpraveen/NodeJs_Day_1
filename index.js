@@ -20,6 +20,11 @@ app.get('/',(req,res)=>{
    res.status(200).send(`<div > <h1 style="background-color:Aqua;color-black"> Hi welcome </h1></div>`)
 })
 
+app.get('/data',(req,res)=>{
+    // res.status(200).json({message:'hi welcome to demo node js'})
+ 
+    res.status(200).send(`<div > <h1 style="background-color:Aqua;color-black"> First routing </h1></div>`)
+ })
 //4 - running port
 app.listen(PORT,()=>{
     console.log(`app listening on port = ${PORT}`);
