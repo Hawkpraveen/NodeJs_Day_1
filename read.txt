@@ -1,0 +1,20 @@
+folder structure
+
+1.Database -- mongosh logic
+
+2.MVC - Models,Controllers
+
+2 A. Controllers -- function
+2 B. Models -- mongodb schema
+
+
+3.Services --
+
+4.Middlewares -- JWT 
+
+5.Routes (Views) -- create routing pages
+
+Files 
+
+1. .env -- credentials
+2. .gitignore -- for hiding modules 
